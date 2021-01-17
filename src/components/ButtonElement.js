@@ -8,6 +8,7 @@ export const Button = styled(Link)`
     padding: ${({big}) =>(big ? '14px 48px' : '12px 30px' )};
     color: ${({dark}) => (dark ? '#010606' : '#fff')};
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    font-weight: 500;
     border:none;
     outline: none;
     cursor: pointer;

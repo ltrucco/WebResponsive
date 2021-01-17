@@ -4,7 +4,6 @@ import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,NavLinks, NavItem, Na
 
 const Navbar = ({toggle}) => {
     return (
-        <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">
@@ -32,7 +31,6 @@ const Navbar = ({toggle}) => {
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
-        </>
     )
 }
 
